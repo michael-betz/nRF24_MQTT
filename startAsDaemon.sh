@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /home/pi/my2RFM24/
+cd /home/pi/nRF24_MQTT
 sudo screen -r nRF24Server -X quit
 sudo pkill nRFserver
 echo "Starting nRF server ..."
